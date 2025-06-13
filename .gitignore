@@ -1,0 +1,13 @@
+# Ignore LLM weights and build files
+models/llama.cpp/models/
+models/llama.cpp/build/
+
+# Ignore temporary and Python cache files
+__pycache__/
+*.pyc
+*.pkl
+*.faiss
+*.gguf
+*.log
+.env
+venv/
