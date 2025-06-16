@@ -136,5 +136,7 @@ This project requires the following Python libraries:
 This project is licensed under the [MIT License](./LICENSE).  
 © 2025 Saurabh Kohad
 
-Made with ❤️ by **Saurabh Kohad**
+---
 
+
+Made with ❤️ by **Saurabh Kohad**
