@@ -1,10 +1,12 @@
 # Personal Memory Chatbot (PMC)
 
 ### Project Overview
-The Personal Memory Chatbot (PMC) is an AI-powered chatbot designed to engage in conversations while utilizing stored memories for context-aware responses. It retrieves relevant memories from past interactions and generates responses using a locally run large language model. The chatbot improves its performance over time by remembering user interactions.
+The Personal Memory Chatbot (PMC) is an AI-powered chatbot designed to engage in conversations while utilising stored memories for context-aware responses. It retrieves relevant memories from past interactions and generates responses using a locally run large language model. The chatbot improves its performance over time by remembering user interactions.
 
 PMC uses **Sentence Transformers** to generate embeddings for each conversation and **FAISS** for fast similarity-based retrieval. The conversational model is powered by **Mistral-7B-Instruct** (via llama.cpp), running natively on your machine with support for Apple Silicon via the Metal backend.
 
+Read the full blog on architecture, workflow, and implementation:
+https://medium.com/p/50246cb9cd91
 ---
 
 ### Features
