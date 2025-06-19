@@ -7,6 +7,7 @@ PMC uses **Sentence Transformers** to generate embeddings for each conversation 
 
 Read the full blog on architecture, workflow, and implementation:
 https://medium.com/p/50246cb9cd91
+
 ---
 
 ### Features
