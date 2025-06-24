@@ -25,6 +25,7 @@ https://medium.com/p/50246cb9cd91
 #### 1. Clone the Repository
 
 git clone https://github.com/saurabhkoahd13/Personal-Memory-Chatbot.git
+
 cd Personal-Memory-Chatbot
 
 
