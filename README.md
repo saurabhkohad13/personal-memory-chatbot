@@ -32,6 +32,7 @@ cd Personal-Memory-Chatbot
 #### 2. Set Up Virtual Environment
 
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
@@ -45,12 +46,16 @@ pip install -r requirements.txt
 Navigate to the llama.cpp directory and build the binary:
 
 cd models/llama.cpp
+
 mkdir build && cd build
+
 cmake .. -DLLAMA_METAL=on
+
 make -j4
 
 
-Ensure the llama-cli binary is available at:  
+Ensure the llama-cli binary is available at: 
+
 llama.cpp/build/bin/llama-cli
 
 #### 5. Download the Mistral-7B Model (.gguf)
