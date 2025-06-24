@@ -54,7 +54,7 @@ cmake .. -DLLAMA_METAL=on
 make -j4
 
 
-Ensure the llama-cli binary is available at: 
+**Ensure the llama-cli binary is available at:**
 
 llama.cpp/build/bin/llama-cli
 
